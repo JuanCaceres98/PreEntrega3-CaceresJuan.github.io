@@ -1,0 +1,44 @@
+*{
+    font-family: montserrat;
+
+}
+@import "navbar";
+@import "carousel";
+@import "card";
+
+body{
+    background: f1fbf
+}
+.section-padding{
+    padding: 200px 0;
+}
+.w-100{
+    height: 100vh;
+}
+
+
+@media only screen and (max-width: 767px){
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 125px;
+    }
+    .carousel-caption h5{
+        font-size: 17px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1,6;
+        font-size: 12px;
+    }
+    .about-text{
+        padding-top: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+}

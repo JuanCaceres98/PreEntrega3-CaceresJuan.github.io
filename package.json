@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "sass": "^1.55.0"
+  },
+  "name": "coderhouseproj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile:sass": "sass --watch scss/styles.scss css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuanCaceres98/PreEntrega3-CaceresJuan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuanCaceres98/PreEntrega3-CaceresJuan/issues"
+  },
+  "homepage": "https://github.com/JuanCaceres98/PreEntrega3-CaceresJuan#readme", 
+  "description": ""
+}
